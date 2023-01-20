@@ -9,7 +9,7 @@ export default function App() {
       <Header/>
       <Spline className='spline-sc1' scene="https://prod.spline.design/M57U9ubdxKCmqtIF/scene.splinecode" />
     </Wrapper>
-    
+
     </>
   );
 }
@@ -19,5 +19,6 @@ const Wrapper = styled.section`
   height: 100vh;
   .spline-sc1{
     margin: 0 auto;
+    padding-top: 73px;
   }
 `;
